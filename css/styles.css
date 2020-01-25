@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FAFAFA;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 200;
+  text-align: center;
+}
+
+h1 {
+  color: #4C4E61;
+  color: hsl(234, 12%, 34%);
+  font-weight: 200;
+  font-size: 2.25rem;
+  line-height: 3rem;
+  margin-bottom: 1%;
+}
+
+h2 {
+  color: #4C4E61;
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 1.3125rem;
+  line-height: 3rem;
+  margin-bottom: 1%;
+}
+
+img {
+  margin-top: 5%;
+  position: absolute;
+  right: 10%;
+}
+
+p {
+  color: #A3A5AE;
+  color: hsl(229, 6%, 66%);
+}
+
+footer {
+  clear: both;
+  margin-top: 2%;
+}
+
+/* .class */
+.heading {
+  margin: 4% auto 3%;
+}
+
+.heading span {
+  clear: left;
+  display: block;
+  font-weight: 600;
+  letter-spacing: 0.06rem
+}
+
+.heading p {
+  margin: 0 auto;
+  width: 28%;
+}
+
+.column{
+  float: left;
+  margin: 0 auto;
+  width: 33%;
+}
+
+.col-1, .col-3 {
+  margin: 0;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.row {
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.span-container {
+  background-color: #ffffff;
+  display: block;
+  padding: 10%;
+  min-height: 175px;
+}
+
+.supervisor, .team-builder, .karma, .calculator {
+  text-align: left;
+  margin: 0 auto;
+  position: relative;
+
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.supervisor {
+  border-top: 4px solid #5BC9C8;
+  margin-right: 5%;
+}
+
+.team-builder {
+  border-top: 4px solid #EA5453;
+  margin-bottom: 5%;
+}
+
+.karma {
+  border-top: 4px solid #FCAE4A;
+  clear: both;
+}
+
+.calculator {
+  border-top: 4px solid #529EF2;
+  margin-left: 5%;
+}
