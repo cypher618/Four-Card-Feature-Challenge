@@ -132,6 +132,11 @@ main {
     margin: 15% 1.5rem 0;
   }
 
+  .heading p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
   .heading p span {
     display: inline;
   }
