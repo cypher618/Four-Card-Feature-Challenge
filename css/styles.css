@@ -70,19 +70,16 @@ footer a {
 
 main {
   display: flex;
-  margin: 0 auto;
 }
 
 .cards {
   display: flex;
-  justify-content: space-between;
   margin: 3% auto;
 }
 
 .col-1, .col-3 {
   align-items: center;
   display: flex;
-  justify-content: center;
   padding: 2rem;
 }
 
@@ -90,7 +87,6 @@ main {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .card {
